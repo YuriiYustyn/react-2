@@ -1,0 +1,45 @@
+body{
+background-color:rgb(0, 0, 0);
+}
+.names{
+
+   
+
+width: 50%;
+margin: 0 auto;
+color:rgb(112, 9, 9);
+font-size: 27px;
+font-weight: bold; 
+text-align: center;
+}
+
+.contact-block{
+   
+
+margin-top: 20px;
+padding: 10px 0;
+   /* padding: 50px; */
+border: dotted;
+background-color: rgb(215, 236, 20);
+border-radius: 4%;
+text-align: center;
+border-color: rgb(112, 9, 9);
+box-shadow: 0 0 20px rgba(221, 176, 176, 0.5)
+}
+
+.gender{
+border: outset;
+border-radius: 100%;
+box-shadow: 0 0 20px rgba(243, 250, 244, 0.5)
+}
+
+p:first-letter {
+color: rgb(255, 72, 0);}
+
+
+p:hover {
+   /* transform: rotateY(-10deg);
+   backface-visibility: trahidden; */
+   
+   transform:translate(10px,10px)
+}

@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+
+import  Contacts  from "./components/Contacts.js" 
+import Contracts from './components/Contracts.js'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Contacts name={"yurii"} name2={"ustyn"} pfone={554554} /> */}
+      <Contracts/>
     </div>
   );
 }
